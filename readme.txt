@@ -1,10 +1,9 @@
-Установка приложения
-В корне проекта:
-1. Запустить npm i
-2. Установить db-migrate "sudo npm i db-migrate -g"
-3. Запустить миграцию "db-migrate up"
+# Install the app
+1. npm i
+2. Install db-migrate "sudo npm i db-migrate -g"
+3. Start migration "db-migrate up"
 
-Команды для запуска Web и Back серверов
+## Commands to run:
 
 Back server: node back/server.js
 Web server: node web/server.js
