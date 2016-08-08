@@ -1,0 +1,28 @@
+extends template
+
+block title
+  title Result
+
+block content
+  .wrapper-results
+    h1 Results:
+    table
+      thead
+        tr
+          th(class="wowo") id
+          th code
+          th result
+          th status
+          th created_at
+          th finished_at
+          th execution_time
+      tbody
+        each t in tasks
+          tr
+            td= t.id
+            td= t.code
+            td= t.result
+            td= t.status
+            td #{moment(t.created_at).format('dddd, MMMM Do YYYY, HH:mm:ss')}
+            td #{t.finished_at ? moment(t.finished_at).format('dddd, MMMM Do YYYY, HH:mm:ss') : null}
+            td= t.execution_time

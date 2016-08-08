@@ -1,0 +1,125 @@
+body {
+  /*text-align: center;*/
+  /*min-width: 768px;*/
+  background: #444 url("../img/bg.jpg") center top;
+  font-family: "PT sans" sans-serif;
+}
+* {
+  -webkit-transition: background 0.4s;
+          transition: background 0.4s;
+  -webkit-transition: background-image 0.4s;
+          transition: background-image 0.4s;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  /*color: #555;*/
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+header {
+  text-align: center;
+}
+header ul {
+  padding: 25px 0;
+  margin: 0 auto;
+  width: 750px;
+  background: #f1f1f1;
+}
+
+header li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header a {
+  color: #222;
+  font-size: 20px;
+}
+.wrapper {
+  width: 750px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #f1f1f1;
+  text-align: center;
+}
+
+.input-login {
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding: 0 20px;
+  margin: 10px 0;
+  color: #555;
+  font-size: 17px;
+  background: #f9f9f9;
+}
+
+.input-login:focus {
+  background: #fff;
+}
+textarea {
+  width: 100%;
+}
+
+.submit {
+  padding: 10px 30px;
+  border: none;
+  margin-top: 10px;
+  color: #000;
+  font-size: 17px;
+  background: #5F81A3;
+  cursor: pointer;
+}
+.submit:hover {
+  background: #789ABC;
+}
+
+/*  CSS for results  */
+
+.wrapper-results {
+  width: 750px;
+  margin: 100px auto;
+  padding: 25px;
+  background: #f1f1f1;
+  text-align: center;
+}
+
+table {
+    table-layout: fixed; 
+    width: 100%; 
+    border-collapse: collapse; 
+    /*border: 1px solid;*/
+}
+
+th, td { 
+  word-wrap: break-word; 
+  text-align: center;  
+  border: 1px solid;
+}
+th:nth-child(2), th:nth-child(3) {
+   width: 20%;
+}
+th:nth-child(5), th:nth-child(6) {
+   width: 15%;
+}
+th:nth-child(4) {
+  width: 9%;
+}
+th:last-child {
+  width: 18%;
+}

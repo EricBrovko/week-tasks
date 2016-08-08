@@ -1,0 +1,15 @@
+extends template
+
+block title
+  title Login
+
+block content
+  .wrapper
+    form(action="", class="login-form", method="post")
+      h1 Login
+        div
+          input(type="text", name="username", placeholder="please write your login", class="input-login")
+        div
+          input(type="password" name="password" placeholder="please write your password" class="input-login")
+        input(type="submit", class="submit")
+block header

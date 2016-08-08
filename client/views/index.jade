@@ -1,0 +1,11 @@
+extends template
+
+block title
+  title Task Node
+
+block content
+  .wrapper
+    h1 Please give me a task
+    form(method="post", action="")
+      textarea(name="code", rows="5")
+      input(type="submit", value="Submit")
